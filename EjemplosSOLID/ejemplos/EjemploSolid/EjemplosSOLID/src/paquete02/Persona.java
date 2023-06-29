@@ -7,23 +7,25 @@ package paquete02;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author reroes
- */
+
 public class Persona {
     private String nombre;
     private int edad;
-    
-    public Persona(String n, int e){
+    private Ciudad ciudad;
+    public Persona(String n, int e,Ciudad c){
         nombre = n;
         edad = e;
+        ciudad=c;
     }
     
     public void establecerNombre(String n){
         nombre = n;
     }
     
+      public void establecerCiudad(Ciudad c){
+        ciudad=c;
+    }
+      
     public void establecerEdad(int n){
         edad = n;
     }
@@ -32,6 +34,10 @@ public class Persona {
         return nombre;
     }
     
+       public Ciudad obtenerCiudad(){
+        return ciudad;
+    }
+       
     public int obtenerEdad(){
         return edad;
     }
