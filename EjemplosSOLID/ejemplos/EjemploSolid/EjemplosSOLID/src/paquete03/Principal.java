@@ -22,7 +22,7 @@ public class Principal {
         
         TiposTransporte tipos = new TiposTransporte();
         tipos.establecerTransporteBus(bus);
-        tipos.establecerTransporteTaxi(taxi);
+        tipos.establecerTransporte(taxi);
         tipos.establecerCooperativaTransvia(transvia);
         tipos.establecerPromedioTarifas();
         

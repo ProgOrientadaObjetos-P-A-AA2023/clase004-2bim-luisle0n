@@ -24,7 +24,7 @@ public class TiposTransporte {
     public void establecerTransporteBus(TransporteBus bus){
         ttbus = bus;
     }
-    
+  
      public void establecerCooperativaTransvia(TransporteTransvia n){
         transvia = n;
     }
